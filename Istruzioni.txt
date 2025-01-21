@@ -1,0 +1,8 @@
+1) Dentro il file .properties inserire le proprie credenziali MySQL
+2) Lanciare lo script sql mediante riga di comando
+
+per Windows:	mysql -u root -p -e "source .\schema_database.sql"
+
+dopo essersi assicurati che le credenziali inserite siano appartenenti ad un utente MySQL che possiede i privilegi sul db appena creato
+3) Eseguire Address_Book.jar
+
